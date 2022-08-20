@@ -1,0 +1,32 @@
+				ROS
+#!/usr/bin/env python			(Python script)
+import rospy
+from std_msgs.msg import message types
+
+
+1-Publisher:
+	def fun():
+		pub = rospy.Publisher('topic name',msg type, queue_size = 10)
+		rospy.init_node('node name', anonymous=True)
+		rate = rospy.Rate(10)
+		while not rospy.is_shutdown():
+			data = x
+			pub.publish(data)
+			rate.sleep()
+	if __name__ == '__main__':
+		try:
+			fun()
+		except rospy.ROSInterruptException:
+			pass
+
+2-Subscriber
+	def callback():
+		el 7aga ely htt3ml lma y subscribe
+	def fun()
+		rospy.init_node('node name' , anynomous = True)
+		rospy.Subscriber("topic name" , msg type , callback function)
+		rospy.spin()
+	if __name__ == '__main__':
+		fun()
+		
+global dh yt7t gowa ay function y5ly el variable bta3k global variable
